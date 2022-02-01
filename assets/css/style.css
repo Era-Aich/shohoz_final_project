@@ -1,0 +1,624 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ephesis', cursive;
+}
+
+/* 1st Nabvar */
+.navbar{
+    height: 72px;
+    width: 100vw;
+    background-color: darkgreen;
+     overflow: hidden;
+    
+     
+   
+}
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+/*   
+   @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+
+     /* .navbar{
+     height: 72px;
+        width: 100vw;
+        background-color: rgb(100, 0, 0);
+         overflow: hidden;
+         
+       
+    }
+
+    
+  }   */
+
+ 
+
+
+
+
+
+
+.navbar ul li{
+list-style: none;
+   font-size: 24px;
+   float: right;
+   padding: 20px;
+  
+ 
+   
+}
+.navbar ul li a{
+    color: whitesmoke;
+     margin-bottom: 17px;
+    text-decoration: none;
+}
+.fa-phone-square-alt{
+    color: whitesmoke;
+}
+
+/* 1st nabvar end */
+
+.box1{
+
+    height: 800px;
+    width: 100%;
+    background-color:whitesmoke;
+}
+
+.head{
+    height: 80px;
+    width: 100vw;
+    background-color: whitesmoke;
+    overflow: hidden;
+    /* border: 2px solid white; */
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    box-shadow: 5px 10px 3px 1px #888888;
+}
+
+.head img{
+    height: 70px;
+    width: 80px;
+    /* margin: 10px auto; */
+    padding: 5px;
+    margin-left: 116px;
+    float: left;
+}
+.head ul li{
+    text-decoration: none;float: right;
+    padding: 25px;
+    list-style: none;
+    margin-right: 90px;
+}
+
+.head ul li a{
+    font-family: 'Gemunu Libre', sans-serif;
+    color: black;
+}
+.head ul li li a{
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+
+.head ul li a:hover{
+height: 400px;
+width: 700px;
+  background-color: green;
+  border-radius: 5px;
+}
+.box1{
+    background-image: url('../image/SHohoz-Ride.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position:  center;
+
+  
+    
+} 
+
+.end{
+    height: 150px;
+    width: 100vw;
+    background-color: darkgreen;
+   
+}
+
+
+.end ul li{
+list-style: none;
+float: left;
+padding: 20px;
+
+}
+
+.end ul li h1{
+text-decoration: none;
+font-family: 'Gemunu Libre', sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+    
+    /* direction: flex;
+    justify-content: space-between;
+    height: 40px; */
+
+    margin-left: 120px;
+   
+}
+
+.end ul li h6{
+    font-family: 'Gemunu Libre', sans-serif;
+     font-size: 15px;
+    color: whitesmoke;
+    margin-left: 120px;
+}
+
+
+.container-form{
+   height: 1000px;
+   width: 100vw;
+   background-image: url("../image/new.webp");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   overflow: hidden;
+   
+ 
+}
+
+.container-form form{
+    height: 780px;
+    width: 600px;
+    border: 2px solid rgba(255,255,255,.4);
+    margin-top: 100px;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  box-shadow: 0 5px 5px;
+  padding: 20px;
+}
+
+.container-form h1{
+padding: 0 10px;
+font-size: 40px;
+
+box-shadow: 0 0 8px rgba(253,187,45,1);
+
+}
+
+.container-form input{
+    height: 40px;
+    width: 70%;
+    padding:0 10px;
+    margin: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0 5px rgba(255,255,255,.7)insert;
+   
+
+}
+
+.container-form form span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-form form button{
+    background-color: yellowgreen;
+    border-radius: 40%;
+    margin-top: 20px;
+    height: 70px;
+    width:100px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fillupform{
+    height: 50px;
+    width: 300px;
+ background-color: green;
+    margin: auto;
+}
+.fillupform h2{
+    text-align: center;
+   color:white;
+   font-size: 20px;
+   padding: 10px;
+  
+}
+.container-form form button:hover{
+    /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    */
+
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    animation:slidebg 4s linear infinite;
+}
+
+
+.container5{
+    height: 800px;
+    width: 100vw;
+    /* background-color: tomato; */
+    overflow: hidden;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.write{
+    height: 300px;
+    width: 100%;
+}
+.write h1, h3{
+    text-align: center;
+    padding: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.write h1{
+    margin-top: 120px;
+}
+
+.write h3{
+    margin-bottom:120px ;
+}
+
+.imagi{
+    height: 500px;
+    width: 100%;
+}
+
+.write h3:hover{
+background-color: green;
+border: 10px solid green;
+color: ivory;
+
+}
+
+.slider{
+    height: 600px;
+    width: 100vw;
+    background-color: lawngreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../image/3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+   
+}
+.imageq{
+    height: 400px;
+    width: 90vw;
+}
+.imageq img{
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+    opacity: 0.7;
+}
+
+.imageq img:hover{
+    opacity: 10;
+}
+ table{
+     width: 70%;
+     margin: 30px auto;
+ }  
+
+ .rider-details h1{
+margin-left: 90px;
+padding: 20px;
+ }
+
+
+ table, th, td {
+    border: 1px solid black;
+
+  }
+
+  table td{
+      padding: 10px;
+      color:papayawhip;
+  }
+
+  table tr{
+      background-color: grey;
+  }
+
+  .content{
+     
+      width: 100%;
+      height: 1718px;
+      /* background-color: chartreuse; */
+      padding: 40px;
+      background-color: dimgrey;
+  }
+  .pic-class{
+      height: 600px;
+      width: 100%;
+    
+  }
+
+  .pra1 h4{
+      text-align: center;
+      padding: 20px;
+  }
+
+  .addpic img{
+height: 400px;
+width: 400px;
+margin-left: 512px;
+  }
+
+  .content2{
+      height: 200px;
+      width: 400px;
+      padding: 10px;
+  }
+  .content3{
+      height: 200px;
+      width: 300px;
+  }
+
+  .pra{
+      height: 300px;
+     background-color: darkolivegreen;
+     color:white;
+     
+  }
+
+  .block1{
+      height: 300px;
+      width: 100%;
+     display: flex;
+     justify-content:space-around;
+  }
+
+  .block2{
+      height: 300px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .block3{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .pra p{
+      padding: 10px;
+  }
+
+.block6{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+  .block6 img{
+      height: 100px;
+
+width: 200px;
+
+}
+
+.content3 h1:hover{
+text-decoration: underline;
+}
+
+.content3 h1{
+    color: white;
+}
+
+.content3 p{
+    color: yellowgreen;
+}
+
+label input{
+  margin-right: 30px;
+}
+
+.gender{
+   height: 200px;
+   width: 300px;
+}
+
+.table-details{
+    height: 800px;
+    width: 100%;
+}
+
+.classname{
+    height: 650px;
+    width: 100%;
+    background-image: url("../image/wl.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+
+.ride {
+
+    height:60px ;
+    width: 150px;
+    background-color:rgb(222, 238, 130);
+    margin-left: 315px;
+
+}
+
+.ride a{
+    color: green;
+    list-style: none;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.formgenerate{
+    height: 590px;
+    width: 100%;
+    background-image: url("../image/SHohoz-Ride.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+overflow: hidden;
+}
+
+.partform2 form{
+    height: 800px;
+    width: 600px;
+    border: 2px solid rgba(255,255,255,.4);
+    margin-top: 100px;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  box-shadow: 0 5px 5px;
+  padding: 30px;
+  margin: auto;
+ 
+    
+    
+}
+
+.partform2 form input{
+margin: 20px;
+height: 40px;
+width: 393px;
+}
+
+.partform2 form button{
+   
+    height: 50px;
+    width: 90px;
+    background-color: greenyellow;
+margin: auto;
+
+font-size: 23px;
+
+  border-radius: 10px;
+}
+
+ .rider .submit{
+border-radius: 10px;
+border: 2px solid green;
+}
+
+
+.submit a{
+    font-size: 21px;
+}
+
+.footerpart3{
+    height: 600px;
+    width: 100%;
+ 
+    padding: 20px;
+  
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+.highlisght{
+    height: 400px;
+    width: 100%;
+    /* background-color: indianred; */
+}
+
+.sect{
+    height: 225px;
+    width: 400px;
+   
+   
+}
+
+.attach1 img{
+    height: 100px;
+    width: 300px;
+    margin-top: 20px;
+
+}
+
+.addpragraph{
+    height: 100px;
+    width: 300px;
+    font-size: 25px;
+ 
+}
+
+.allpart{
+    height: 225px;
+    width: 100px;
+    margin-right: 421px;
+}
+
+.addul{
+    height: 200px;
+    width: 200px;
+    margin-top: 78px;
+}
+
+.addul ul li{
+    text-decoration: none;
+    list-style: none;
+   
+   
+ font-size: 40px;
+}
+
+.addul ul li a:hover{
+    text-decoration: underline;
+}
+
+.comfortable{
+    height: 225px;
+    width: 200px;
+    margin-right: 421px;
+}
+
+.comfortable ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+
+}
+
+.mediasection{
+    height: 300x;
+    width: 200px;
+    margin-right: 30px;
+    margin-top: 78px;
+}
+
+.mediasection ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+}
+
+.mediasection  h1{
+    background-color: green;
+}
+
+.mediasection i{
+    color: blue;
+}
+
+.writtenway{
+    height: 200px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
